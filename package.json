@@ -1,0 +1,15 @@
+{
+  "name": "wordle-solver",
+  "version": "1.0.0",
+  "description": "Simple word-filtering package to solve Wordle-like words",
+  "main": "index.js",
+  "author": "Jahid Zaynal",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
