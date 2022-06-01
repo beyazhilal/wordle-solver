@@ -35,8 +35,8 @@ let guess;
 
 for (let i=0; i<tries; i++) {
   guess = i===0 && startWith || wordsList[0];
-  if (i===5) {
-    console.log('Last try, remaining words:');
+  if (i>=4 || wordsList.length <= 25) {
+    console.log('Remaining words:');
     console.dir(wordsList);
   }
 
